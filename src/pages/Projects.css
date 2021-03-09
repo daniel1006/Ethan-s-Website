@@ -1,0 +1,124 @@
+.projects-style{
+    min-height: 200vh;
+    background: #080808;
+    display: grid;
+    grid-template-columns: 65%;
+    grid-template-rows: 150px 300px 300px 300px;
+    grid-row-gap:5%;
+    justify-content: center;
+    padding-top: 20%;
+}
+
+@media (max-width: 1000px){
+    .projects-style{
+      min-height: 175vh;
+    }
+  }
+
+  .projects-h1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 400%;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 
+    .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8,   
+    .1vw 0vw   1vw #e50b0b, .2vw 0vw   1vw #e50b0b, .4vw 0vw   5vw #e50b0b, 
+    .1vw 0vw  10vw #e50b0b, .2vw 0vw  30vw #e50b0b, .4vw 0vw  10vw #e50b0b;
+}  
+
+.projects-stories{
+   grid-column: 1/2;
+   grid-row: 2/3;
+   background: url("../images/sweaterWeather.JPG") no-repeat left;
+   background-size: cover;
+   border-radius: 50px 50px;
+}
+
+.projects-stories:hover{
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    box-shadow:  0 0 10px #007efb, 0 0 40px #007efb, 0 0 10px #007efb,
+                 0 0 10px #007efb, 0 0 40px #007efb, 0 0 10px #007efb;
+}
+
+.stories-text {
+    color: aliceblue;
+    text-shadow:  0 0 10px whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    margin-top: 70px;
+    margin-left: 100px;
+    width:1px;
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+}
+
+.projects-ideas{
+  grid-column: 1/2;
+  grid-row: 3/4;
+  background-image: url("../images/writtenWork.jpg");
+  background-position:center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px 50px;
+}
+
+.projects-ideas:hover{
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    box-shadow:  0 0 10px #007efb, 0 0 40px #007efb, 0 0 10px #007efb,
+                 0 0 10px #007efb, 0 0 40px #007efb, 0 0 10px #007efb;
+}
+
+.ideas-text{
+    color: aliceblue;
+    text-shadow:  0 0 10px whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 70px;
+    margin-left: 50px;
+    width:1px;
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    line-height: 38px;
+}
+
+.projects-photography{
+    grid-column: 1/2;
+    grid-row: 4/4;
+    background-image: url("../images/BehindTheScenes.jpg");
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px 50px;
+}
+
+.projects-photography:hover{
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    box-shadow:  0 0 10px #007efb, 0 0 40px #007efb, 0 0 10px #007efb,
+                 0 0 10px #007efb, 0 0 40px #007efb, 0 0 10px #007efb;
+}
+
+.photography-text{
+    color: aliceblue;
+    text-shadow:  0 0 10px whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 100px;
+    width:1px;
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+}
+
+  

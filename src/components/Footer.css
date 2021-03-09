@@ -1,0 +1,38 @@
+.footer{
+    color: aliceblue;
+    text-shadow:  0 0 10px whitesmoke;
+    font-size: 34px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+    margin-top: 5%;
+    margin-right: 2%;
+  }
+
+  @media (max-width: 480px){
+    .footer{
+      padding-right: 5%;
+    }
+  }
+  
+  .insta-icon{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: aliceblue;
+    text-shadow:  0 0 10px whitesmoke;
+  }
+  
+  .youtube-icon {
+    color: aliceblue;
+    margin-left: 7px;
+    transition: 1;
+  }
+
+  .insta-icon:hover {
+    color: #E1306C;
+  }
+
+  .youtube-icon:hover {
+    color:#FF0000;
+  }

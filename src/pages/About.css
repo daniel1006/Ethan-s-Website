@@ -1,0 +1,66 @@
+.about-style{
+    min-height: 150vh;
+    background: #080808;
+    display: grid;
+    grid-template-columns: 50% 40%;
+    grid-template-rows: 300px 75px 400px 100px ;
+    grid-row-gap:50px ;
+    grid-column-gap: 50px;
+    justify-content: center;
+}
+
+.about-style img {
+    width: 80%;
+    height: 80%;
+    object-fit:cover ;
+}
+
+.about-h1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 350%;
+    text-align: center;
+    color: aliceblue;
+    align-self: end;
+    text-shadow: .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
+                 .1vw 0vw   0vw #f25757, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #f25757,
+                 .1vw 0vw  .1vw #f25757, .2vw 0vw  .1vw #f25757, .4vw 0vw  .1vw #f25757,
+                 .1vw 0vw   1vw #e50b0b, .2vw 0vw   1vw #e50b0b, .4vw 0vw   5vw #e50b0b, 
+                 .1vw 0vw  10vw #e50b0b, .2vw 0vw  30vw #e50b0b, .4vw 0vw  10vw #e50b0b;
+}
+
+.about-h3{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 200%;
+    text-align: center;
+    color: aliceblue;
+}
+
+.about-p{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    text-align: center;
+    font-size: 200%;
+    color: aliceblue;
+}
+
+.ethan-pic{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    margin-top: 225px;
+    justify-self: center;
+    box-shadow:  0 0 10px #007efb, 0 0 40px #007efb, 0 0 10px #007efb;
+    border-radius: 50px 50px;
+    align-items: bottom;
+}
+
+/* Link on thank you page */
+
+.ThanksLink{
+    text-shadow:  0 0 10px #007efb, 0 0 40px #007efb, 0 0 10px #007efb,
+    0 0 10px #007efb, 0 0 40px #007efb, 0 0 10px #007efb,
+    0 0 10px #007efb, 0 0 40px #007efb, 0 0 10px #007efb,
+    0 0 10px #007efb, 0 0 40px #007efb, 0 0 10px #007efb;;
+}
+

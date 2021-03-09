@@ -1,0 +1,119 @@
+.form{
+    display: grid;
+    grid-template-columns: 35% 40%;
+    grid-template-rows: 100px 100px 100px 300px;
+    grid-column-gap: 150px;
+    justify-content: center;
+    align-self: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    width: 100%;
+    margin-right: 8%;
+    margin-top: 10%;
+    padding-left: 6.5%;
+} 
+
+@media (max-width: 575px){
+    .form{
+        display: grid;
+        grid-template-columns: 70%;
+        grid-template-rows: 100px 100px 300px 100px;
+    }
+  }
+
+input, [type="text"]{
+    background-color: #080800 ;
+    box-shadow: 0 0 10px whitesmoke;
+    font-size: 22px;          
+}
+
+.name-box{
+    grid-column: 1/2;
+    grid-row: 1/1;
+    font-size: 200%;
+    text-align: center;
+}
+
+.full-name{
+    color:aliceblue;
+    width: 300px;
+    height: 35px;
+    border: none;  
+}
+
+.name{
+    text-shadow:  0 0 10px whitesmoke;
+    padding-bottom: 5px;
+}   
+
+.email-box{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 200%;
+    text-align: center;
+}
+
+.Email{
+    color:aliceblue;
+    width: 300px;
+    height: 35px;
+    border: none;  
+}
+
+.message-box{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 200%;
+    text-align: center;
+    margin-right: 30%;   
+}
+
+@media (max-width: 575px){
+    .message-box{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        width: 100%;
+    }
+  }
+
+.Message{
+    color:aliceblue;
+    width: 100%;
+    height: 220px;
+    border: none;  
+    background-color: #080800;
+    box-shadow: 0 0 10px whitesmoke;
+    font-size: 22px;        
+    padding-bottom: 5px;
+}
+
+
+.send-btn{
+    color: aliceblue;
+    text-transform: uppercase;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    font-size: 200%;
+    text-align: center;
+    background: none;
+    border: none;
+    width: 100px;
+    height: 50px;
+    padding-left: 41%;
+    padding-top: 10px;
+    outline: none;
+}
+
+@media (max-width: 575px){
+    .send-btn{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+  }
+
+.send-btn:hover{
+    text-shadow:  .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8,   
+                  .1vw 0vw   1vw #e50b0b, .2vw 0vw   1vw #e50b0b, .4vw 0vw   5vw #e50b0b, 
+                  .1vw 0vw  10vw #e50b0b, .2vw 0vw  30vw #e50b0b, .4vw 0vw  10vw #e50b0b;
+    font-size: 38px;              
+}
