@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ethanweb/static/css/main.0bf4dfc4.chunk.css",
+    "main.js": "/ethanweb/static/js/main.8fab15f6.chunk.js",
+    "main.js.map": "/ethanweb/static/js/main.8fab15f6.chunk.js.map",
+    "runtime-main.js": "/ethanweb/static/js/runtime-main.7a973bce.js",
+    "runtime-main.js.map": "/ethanweb/static/js/runtime-main.7a973bce.js.map",
+    "static/js/2.78ac7156.chunk.js": "/ethanweb/static/js/2.78ac7156.chunk.js",
+    "static/js/2.78ac7156.chunk.js.map": "/ethanweb/static/js/2.78ac7156.chunk.js.map",
+    "index.html": "/ethanweb/index.html",
+    "precache-manifest.0c8e89c9f5bbb941c128bb445d369aa5.js": "/ethanweb/precache-manifest.0c8e89c9f5bbb941c128bb445d369aa5.js",
+    "service-worker.js": "/ethanweb/service-worker.js",
+    "static/css/main.0bf4dfc4.chunk.css.map": "/ethanweb/static/css/main.0bf4dfc4.chunk.css.map",
+    "static/js/2.78ac7156.chunk.js.LICENSE.txt": "/ethanweb/static/js/2.78ac7156.chunk.js.LICENSE.txt",
+    "static/media/Projects.css": "/ethanweb/static/media/writtenWork.8ec10e00.jpg",
+    "static/media/RainVideo.mp4": "/ethanweb/static/media/RainVideo.6446d0a6.mp4",
+    "static/media/ethanProfile.jpg": "/ethanweb/static/media/ethanProfile.44b3b509.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a973bce.js",
+    "static/js/2.78ac7156.chunk.js",
+    "static/css/main.0bf4dfc4.chunk.css",
+    "static/js/main.8fab15f6.chunk.js"
+  ]
+}
