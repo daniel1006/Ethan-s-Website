@@ -1,4 +1,4 @@
-import React, { bind, } from 'react';
+import React from 'react';
 import './Email.css';
 
 class Emailapi extends React.Component {
