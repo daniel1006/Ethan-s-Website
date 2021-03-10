@@ -93,7 +93,8 @@
     right: 0;
     border-radius: 5px;
   }
-  
+
+
   @media (max-width: 500px){
     header .Logo{
       display: none;

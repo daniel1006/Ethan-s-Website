@@ -25,11 +25,11 @@ export class Home extends React.Component {
                   width: "100%",
                   left: "50%",
                   top: "50%",
-                  height: "110%",
+                  height: "100%",
                   objectFit: "cover",
                   transform: "translate(-50%, -50%",
-                 zIndex: "-1"
-                         }}>
+                  zIndex: "-1" }}>
+
               <source src={RainVideo} type="video/mp4" />
              </video>   
              <a className="cv-button" download href="/Resume/CV.pdf">
