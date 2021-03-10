@@ -1,7 +1,5 @@
 import React from 'react';
-import About from './About';
-import Projects from './Projects';
-import Contact from './Contact';
+
 import './Home.css';
 import RainVideo from '../images/RainVideo.mp4';
 
@@ -21,11 +19,11 @@ export class Home extends React.Component {
               <video classname="Rain-Video" autoPlay loop muted 
               
                   style={{
-                  position: "absolute",
-                  width: "100%",
+                  position: "fixed",
+                  width: "110vw",
                   left: "50%",
                   top: "50%",
-                  height: "100%",
+                  height: "120vh",
                   objectFit: "cover",
                   transform: "translate(-50%, -50%",
                   zIndex: "-1" }}>
@@ -38,9 +36,7 @@ export class Home extends React.Component {
                      
     
             </div>   
-         <Projects />
-         <About />
-         <Contact />
+        
          </section>
     )
 }}

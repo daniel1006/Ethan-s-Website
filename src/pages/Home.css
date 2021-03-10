@@ -59,6 +59,12 @@
     .1vw 0vw  10vw #e50b0b, .2vw 0vw  30vw #e50b0b, .4vw 0vw  10vw #e50b0b;
 }
 
+@media (max-height: 550px){
+  .Rain-Video{
+    height: 1000%;
+  }
+}
+
 
 
 
