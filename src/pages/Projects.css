@@ -1,5 +1,6 @@
 .projects-style{
     min-height: 200vh;
+    min-width: 115%;
     background-color: #080808;
     display: grid;
     grid-template-columns: 65%;

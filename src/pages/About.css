@@ -1,6 +1,7 @@
 .about-style{
     min-height: 150vh;
     background: #080808;
+    min-width: 115%;
     display: grid;
     grid-template-columns: 50% 40%;
     grid-template-rows: 300px 75px 400px 100px ;

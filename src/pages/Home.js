@@ -20,7 +20,7 @@ export class Home extends React.Component {
               
                   style={{
                   position: "fixed",
-                  width: "110vw",
+                  width: "100%",
                   left: "50%",
                   top: "50%",
                   height: "120vh",

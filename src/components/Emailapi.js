@@ -5,7 +5,7 @@ class Emailapi extends React.Component {
 
    render() {
     return(
-    
+   
          <form className="form"   
                action="https://getsimpleform.com/messages?form_api_token=e0570f4dd198f082cfd1e4517f765a84" 
                method="post">
@@ -44,6 +44,7 @@ class Emailapi extends React.Component {
             
                      <button className="send-btn" type="submit"  > Send </button>            
           </form>
+    
     );
    }
 }
