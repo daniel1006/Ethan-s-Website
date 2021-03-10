@@ -2,7 +2,6 @@
   "name": "ethanreact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://summerskies.github.io/ethanweb",
   "dependencies": {
     "@okta/okta-react": "^3.0.8",
     "@okta/okta-signin-widget": "^4.5.2",
