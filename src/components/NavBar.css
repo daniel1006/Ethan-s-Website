@@ -47,10 +47,17 @@
     0 0 10px #007efb, 0 0 40px #007efb, 0 0 10px #007efb,
     0 0 10px #007efb, 0 0 40px #007efb, 0 0 10px #007efb,
     0 0 10px #007efb, 0 0 40px #007efb, 0 0 10px #007efb;
+   
+  }
+
+  @media (max-width: 500px){
+    header .Logo{
+      display: none;
+    }
   }
 
   header .Logo{
-    margin-left: 50px;
+    margin-left: 5%;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 40px;
@@ -58,8 +65,17 @@
   header ul{
     list-style: none;
     margin-right: 50px;
+    margin-left: 5%;
     font-size: 22px;
   }
+
+  @media (max-width: 1145px){
+    header ul{
+      text-align: center;
+      margin-top: 3%;
+    }
+  }
+
   header ul li{
     display: inline-block;
   }
@@ -93,21 +109,14 @@
     border-radius: 5px;
   }
 
-
-  @media (max-width: 500px){
-    header .Logo{
-      display: none;
-    }
-  }
-  
   @media (max-width: 500px){
     header ul{
       position: fixed;
       top:0;
-      left: -100%;
+      left: -105%;
       background: #555;
-      width: 115vw;
-      height: 115vh;
+      width: 90%;
+      height: 100%;
       display: flex;
       justify-content: space-around;
       align-items: center;

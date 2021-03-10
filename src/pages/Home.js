@@ -21,11 +21,10 @@ export class Home extends React.Component {
                   style={{
                   position: "fixed",
                   width: "100%",
-                  left: "50%",
-                  top: "50%",
+                  left: "0",
+                  top: "0",
                   height: "120vh",
                   objectFit: "cover",
-                  transform: "translate(-50%, -50%",
                   zIndex: "-1" }}>
 
               <source src={RainVideo} type="video/mp4" />

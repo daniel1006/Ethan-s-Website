@@ -1,7 +1,7 @@
 .contact-style{
     min-height: 100vh;
-    min-width: 115%;
     background: #080808;
+    overflow: hidden;
 }
 
 .contact-h1{

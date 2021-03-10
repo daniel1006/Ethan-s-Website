@@ -7,10 +7,10 @@ class Emailapi extends React.Component {
     return(
    
          <form className="form"   
-               action="https://getsimpleform.com/messages?form_api_token=e0570f4dd198f082cfd1e4517f765a84" 
+               action="https://getsimpleform.com/messages?form_api_token=cdd9d49d41bfa26d0752f17333ddc448" 
                method="post">
           
-          <input type='hidden' name='redirect_to' value='http://localhost:3000/thankyou' />
+          <input type='hidden' name='redirect_to' value='https://awesome-hermann-a54778.netlify.app/thankyou' />
 
           <div className="name-box" >
           <group >
