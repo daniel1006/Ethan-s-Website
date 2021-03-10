@@ -1,6 +1,5 @@
-import React, { bind, } from 'react'
-import Axios from 'axios'
-import './Email.css'
+import React, { bind, } from 'react';
+import './Email.css';
 
 class Emailapi extends React.Component {
 
