@@ -119,7 +119,8 @@
     margin-left: 100px;
     width:1px;
     text-orientation: upright;
-    writing-mode: vertical-rl;
+    writing-mode: vertical-lr;
+    line-height: 38px;
 }
 
   
